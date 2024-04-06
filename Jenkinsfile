@@ -16,6 +16,7 @@ pipeline{
             sh "mvn clean install"
         }  
       }
+    /*    
       stage('genertatereport'){
           steps{
           sh "mvn sonar:sonar"
@@ -33,5 +34,6 @@ pipeline{
            }
         }
       }
+      */
     }   
 }
